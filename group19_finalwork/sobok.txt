@@ -1,0 +1,67 @@
+<div id="maincontent">
+<div id = "leftcol">
+<img src="images/sobok1.jpg" alt="sobok">
+
+      <p><br><br><br></p>
+
+
+
+  <img src="images/sobok2.jpg" alt="sobok">
+
+
+      <p><br><br><br></p>
+
+
+      <img src="images/sobok3.jpg" alt="menu">
+
+
+       <p><br><br><br>r</p>
+
+</div>
+<div id="rightcolP">
+  <h2> Main dessert: Sobok Ice Cream with Injeolmi Ice Balls </h2>
+  <p>	CSobak’s signature ice cream is served with Injeolmi ice balls and garnished with natural toppings such as pumpkin, nuts, dried fruits, rice cakes, and honey. Other popular desserts include
+  the Nunkkot Bingsu (snowflower shaved ice) and their unique sweet potato ice cream cone with brown rice ice cream. </p>
+
+</div>
+
+
+<div id="rightcolC">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP2">
+  <h2>Directions/Hours of Operation:  </h2>
+  <p>Sobok is located at 58 Eoulmadang-ro, Seogyo-dong, Mapo-gu, Seoul, South Korea. It is located at the centre of Hongdae which is
+  the most famous place for young generations to shop and play. Sobok is open everyday from 1 pm to 11 pm.
+
+</p>
+</div>
+
+
+<div id="rightcolC2">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP3">
+  <h2> Top 3 Menus
+ </h2>
+  <p>Sobok snowflake - $6.80<br>
+Sobok ice cream - $5.20<br>
+Sobok injeolmi iceball - 9pcs ($7.50) 18pcs($13.50) 27pcs($19.50)
+</p>
+</div>
+
+
+<div id="rightcolC3">
+  <br><br><br>
+</div>
+
+
+</div>
+<div id="footer2">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

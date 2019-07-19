@@ -1,0 +1,43 @@
+<div id="maincontent">
+<div id="column1">
+
+<a href="index.php?id=jeju2"><img src="images/jeju4.jpg" alt="image" height="250" width="400"></a>
+<h3>Osulloc Green Tea Museum </h3>
+<p>The Osulloc Green Tea Museum is a museum located near the Seokwang tea fields, and is the only museum of its kind in Korea. The museum aims to teach visitors about the history and traditions of Korean tea culture. Some interesting features include a tea cup gallery, where visitors can explore the different types of teaware used over history in both Korea and around the world. Furthermore, there is a tea roasting space that allows visitors to observe freshly harvested tea leaves being roasted by a professional tea master. 
+The museums tea store includes a bakery where visitors can purchase and enjoy freshly brewed tea, ice cream, and a variety of baked goods. Perhaps the best part about the Osulloc Green Tea Museum is that admission and tours is free for all visitors.</p>
+
+</div>
+
+
+
+</div>
+  <div id="map" style="width: 500px; height: 300px;"></div>
+<script type="text/javascript">
+  var locations = [
+    ['place1', 37.563325, 126.982863],
+    ['place2', 37.564048, 126.984463]
+  ];
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 18,
+    center: new google.maps.LatLng(37.563631, 126.983430),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+  var infowindow = new google.maps.InfoWindow();
+  var marker, i;
+  for (i = 0; i < locations.length; i++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+      map: map
+    });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(locations[i][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
+  }
+</script>
+<div id="footer">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

@@ -1,0 +1,22 @@
+<div id="content">
+<div id="sliding">
+  <div id="slider">
+    <!-- <p>SEOUL</p> -->
+    <figure>
+    <a href="index.php?id=seoul"><img src="images/DawnHouse2.jpg" alt></a>
+    <a href="index.php?id=busan"><img src="images/busan10.jpg" alt></a>
+    <a href="index.php?id=jeju"><img src="images/osulloc.jpg" alt></a>
+    <a href="index.php?id=seoul"><img src="images/twotwo1.jpg" alt></a>
+
+    </figure>
+  </div>
+</div>
+
+</div>
+
+<div id= "footer">
+<footer>
+<p> Copyright &copy; 2017 </p>
+</footer>
+</div>
+</div>

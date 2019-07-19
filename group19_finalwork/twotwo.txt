@@ -1,0 +1,72 @@
+<div id="maincontent">
+<div id = "leftcol">
+<img src="images/twotwo1.jpg" alt="Two-Two-Chicken">
+
+      <p><br><br><br></p>
+
+
+
+  <img src="images/twotwo2.jpg" alt="Two-Two-Chicken">
+
+
+      <p><br><br><br></p>
+
+
+      <img src="images/twotwoMenu.jpg" alt="menu">
+
+
+       <p><br><br><br>r</p>
+
+</div>
+<div id="rightcolP">
+  <h2> Main Dish: </h2>
+  <p>	Suggested menu items include the Original Fried Chicken and the Marinated Soy Fried Chicken.
+  Another favourite is the Chili Fried Chicken that is both crunchy and flavourful. Side dishes include pickled radish,
+  and kimchi. Chicken is often complimented with a side of beer. </p>
+
+</div>
+
+
+<div id="rightcolC">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP2">
+  <h2> Directions/Hours of Operation: </h2>
+  <p>There are many locations to try Two Two Fried Chicken in Seoul since it is a franchised restaurant.
+   However, the main place is in Myungdong (the most popular shopping place, especially for foreigners),
+   located at 138 Da-dong, Jung-gu, Seoul, South Korea. Since Korean chicken is known to match well with beer, chicken restaurants
+   in Korea usually open late afternoon and close during the early morning. Myungdong Two Two Fried Chicken is open everyday from 3 pm to 2 am.
+</p>
+</div>
+
+
+<div id="rightcolC2">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP3">
+  <h2>Menu </h2>
+  <p>Fried Chicken - $15<br>
+Seasoned Spicy Chicken - $16<br>
+Half/Half - $16<br>
+Garlic Chicken - $16<br>
+Green Onion Chicken - $17<br>
+Soy Sauce Chicken - $16<br>
+Teriyaki Chicken - $17
+</p>
+</div>
+
+
+<div id="rightcolC3">
+  <br><br><br>
+</div>
+
+
+</div>
+<div id="footer2">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

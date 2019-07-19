@@ -1,0 +1,55 @@
+<div id="maincontent">
+  <div id="leftcolumn">
+
+  <a href="index.php?id=dawnhouse"><img src="images/DawnHouse2.jpg" alt="Dawn House"></a>
+  <h3>Dawn House</h3>
+  <p>Located in Gangnam, Seoul, Dawn House is one of the city’s favorite locations for Korean barbeque. Dawn House is a well-known high quality Korean barbeque restaurant, open 24-hours, making it a convenient dining location for customers. Located at the heart of Gangnam where various Korean-pop companies exist, korean celebrities usually visit during late night or early morning hours. Due to its popularity among locals and celebrities, the Dawn House has become one of the top places to visit for tourists visiting Korea. </p>
+
+  </div>
+
+  <div id="middlecolumn">
+
+  <a href="index.php?id=sobok"><img src="images/sobok.jpg" alt="image"></a>
+  <h3>Sobok</h3>
+  <p>Sobok opened it’s first location in 2014 in Hongdae, and has since  become a popular destination for sweet treats and desserts. With natural flavours and a comfortable atmosphere, Sobok offers freshly prepared ice cream made with rice and various grains, promoting healthy and traditional tastes.</p>
+
+  </div>
+  <div id="rightcolumn">
+  <a href="index.php?id=twotwo"><img src="images/twotwo.jpg" alt="twotwo"></a>
+  <h3>Two-Two-Chicken</h3>
+  <p>Fried chicken is one of Korea’s favourite dishes, popular among friends and families that like to gather and enjoy their chicken with beer and other side dishes. Two Two Fried Chicken is a well-known fried chicken restaurant located in Myeongdong, Seoul that serves the extra-crispy, Korean fried chicken that is loved by many. Korean fried chicken differs from regular fried chicken as it is usually double-fried, giving it a crispier texture. In addition to chicken, Two Two Fried Chicken offers a variety of other dishes in the form of soups, stews, and fried pancakes as well.</p>
+
+  </div>
+</div>
+  <div id="map" style="width: 500px; height: 300px;"></div>
+<script type="text/javascript">
+  var locations = [
+    ['place1', 37.525535, 127.052889],
+    ['Sobok', 37.550130, 126.921264],
+    ['two-two', 37.567361, 126.981343]
+  ];
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 11,
+    center: new google.maps.LatLng(37.563631, 126.983430),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+  var infowindow = new google.maps.InfoWindow();
+  var marker, i;
+  for (i = 0; i < locations.length; i++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[i][1], locations[i][2], locations[i],[3]),
+      map: map
+    });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(locations[i][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
+  }
+</script>
+
+<div id="footer">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

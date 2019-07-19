@@ -1,0 +1,264 @@
+/* header */
+h1 { background-image: url(images/logo.gif);
+	background-repeat: no-repeat;
+	background-position: 2% 50%;
+	background-size: 80px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	width: 100%;
+	background-color: black;
+	}
+h1 img { margin: auto;
+		 margin-left: 120px;
+		width: 400px;}
+
+/* navigation */
+#nav {margin: 50px 0px 100px 50px;
+	  display: inline;}
+
+#nav ul { list-style-type: none;
+		  padding: 0;
+		  }
+#nav li{ display: inline;}
+
+#nav a{ text-decoration: none;
+		padding: 20px;
+		background-color: black;
+		color: white;
+		font-size: 100%;
+		font-family: Papyrus;
+		font-weight: 900;
+		margin: auto;}
+
+#nav a:hover { background-color: gray;
+				color: red;}
+
+#signin { text-align:right;
+		  margin: 10px 6px -10px 0;}
+
+/* sign in/up */
+#signin a{text-decoration:none;
+		  border:1px solid #8C8C8C;
+		  background-color: #8C8C8C;
+		  color:white;
+		  padding:5px;}
+p { font-family: Arial, Verdana, sana-serif;}
+/***************************************************************/
+/* image sliding */
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+
+}
+
+body { margin: 0; }
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+	/*heigth:100%;*/
+  margin: 0;
+  margin-top: 50px;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite;
+}
+#sliding { width: 65%;
+		   height: 65%;
+		   margin: auto;}
+
+
+#slider p {  font-family: Papyrus;
+			 font-weight: bold;
+			 font-size: 80%;
+			 font-style: italic;
+			 }
+
+#content{
+	margin-top: 20px;
+}
+
+/***************************************************************/
+#maincontent {width: 1000px;
+margin:auto;
+margin-top: 50px;
+position:relative;
+min-height:100%;}
+
+/* sign in/up setting */
+#signform { width: 550px;
+			margin: auto;}
+
+form {background-color: #eaeaea;
+	  font-family: Arial, sans-serif;
+	   padding: 10px;
+	   margin-top: 50px;}
+fieldset {width: 500px; border: 1px ridge #000000;
+					padding: 10px; margin-bottom: 10px;}
+fieldset p{font-size: 70%;}
+legend {font-family: Georgia, "Times New Roman", serif;
+				font-weight: bold;}
+#labeL {font-family: Arial, sans-serif; float: left; width: 100px; clear: left;
+		text-align: left; padding-right: 20px; margin-top: 10px; display: block; height: 25px;}
+#labeL2 {font-family: Arial, sans-serif; float: left; width: 100px; clear: left;
+		text-align: left; padding-right: 20px; margin-top: 10px; display: block; height: 25px;}
+#labeL3 {font-family: Arial, sans-serif; float: left; width: 100px; clear: left;
+		text-align: left; padding-right: 20px; margin-top: 10px; display: block; height: 25px;}
+#labeL4 {font-family: Arial, sans-serif; float: left; width: 100px; clear: left;
+		text-align: left; padding-right: 20px; margin-top: 10px; display: block;}
+#labeL5 {font-family: Arial, sans-serif; float: left; width: 100px; clear: left;
+		text-align: left; padding-right: 20px; margin-top: 10px; display: block;
+		height: 25px;}
+
+input, textarea {margin-top: 10px;}
+
+#error1, #error2, #error3, #error4, #error5 {color: red;}
+/***************************************************************/
+/* level3 setting */
+#leftcol{float: left;}
+
+#leftcol p {width: 400px;
+			height: 50px;
+			border:1px solid white;
+			overflow:hidden;}
+#leftcol img{width: 400px;
+			 height: 350px;
+             border: 3px solid black;}
+
+#rightcolP { float: left; border: 3px solid white; overflow: auto;
+			 margin-left: 30px; width: 400px; height: 350px; font-size:1.2em; line-height:150%;}
+#rightcolP2 { float: left; border: 3px solid white; overflow: auto;
+			 margin-left: 30px; width: 400px; height: 350px;margin-top:-45px; font-size:1.2em; line-height:150%;}
+#rightcolP3 { float: left; border: 3px solid white; overflow: auto;
+			 margin-left: 30px; width: 400px; height: 350px;margin-top:-45px; font-size:1.2em; line-height:150%;}
+
+#rightcolC { float: left; overflow: hidden; margin-left: 30px; width: 400px;
+			height: 100px; margin-top: 17px; margin-bottom: 17px;}
+#rightcolC2 { float: left; overflow: hidden; margin-left: 30px; width: 400px;
+			height: 100px; margin-top: 17px; margin-bottom: 17px;}
+#rightcolC3 { float: left; overflow:hidden ; margin-left: 30px; width: 400px;
+			height: 100px; margin-top: 17px; margin-bottom: 17px;}
+#footer2 {background-color: #C0D9D9;
+		text-align:center;
+		padding:10px;
+		margin-top:60px;
+		position:relative;
+clear:both;}
+#map1 {float: right;
+overflow: auto;
+clear: both;
+margin-right:50px;}
+#map2 {float: right;
+overflow: auto;
+clear: both;
+margin-right:100px;}
+#map3 {float: right;
+overflow: auto;
+clear: both;
+margin-right:50px;}
+
+#map{overflow:auto;
+clear: both;
+margin:auto;
+}
+/***************************************************************/
+
+#leftcolumn {width: 250px;
+float:left;
+padding-right:100px;
+ clear: both;}
+
+#leftcolumn img{width:250px;
+border: 5px solid black;}
+
+#middlecolumn img{width:250px;
+border: 5px solid black;}
+
+#middlecolumn{width:250px;
+float:left;
+padding-right:100px;}
+
+#rightcolumn{width:250px;
+float:left;}
+#rightcolumn img{width:250px;
+border: 5px solid black;}
+
+
+#footer p{margin:0;
+width:100%;}
+
+#wrapper{position:relative;
+min-height:1300px;
+width:100%}
+
+#leftcolumn2 {width: 250px;
+float:left;
+padding:0 200px 0 150px;
+}
+
+#leftcolumn2 img{width:250px;
+/*height: 350px;*/
+border: 5px solid black;}
+
+#rightcolumn2{width:250px;
+float:left;}
+
+#rightcolumn2 img{width:250px;
+/*height:350px;*/
+border: 5px solid black;}
+
+#column1 {width:350px;
+		margin:auto;}
+
+#column1  img{width:250px;
+/*height:450px;*/
+border:5px solid black;}
+/***************************************************************/
+
+
+
+
+#footer{position:absolute;
+bottom:-50px;
+background-color: #C0D9D9;
+width:100%;
+padding:30px;
+		text-align:center;
+		padding:20px;
+		margin-top:60px;}
+
+
+#footer p{margin:0;
+width:100%;}
+
+ #table {
+ margin: auto;
+ width: 200px;
+ }
+
+ #table img {width: 100px;
+  height: 100px;
+ margin-bottom: 30px;}
+----------------------------------------------------------
+div#forumTable {
+	margin:auto;
+	position: relative;
+}
+#forum_add_topic {
+	margin-top: 100px;
+}
+
+.f_s {font-family: Papyrus;
+			 font-weight: bold;
+			 font-size: 200%;
+			 font-style: italic;
+		 	  text-align: center;
+			  }

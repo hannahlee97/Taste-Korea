@@ -1,0 +1,80 @@
+<div id="maincontent">
+<div id = "leftcol">
+<img src="images/jeju4.jpg" alt="pajun">
+	
+      <p><br><br><br></p>
+
+
+
+  <img src="images/jeju5.jpg" alt="location">
+
+
+      <p><br><br><br></p>
+
+
+      <img src="images/jeju6.jpg" alt="menu">
+
+
+       <p><br><br><br></p>
+
+</div>
+<div id="rightcolP">
+  <h2>Featured Desserts</h2>
+  <p>The Osullloc Museum's tea house menu features tea flavoured goods including lattes, shakes, iced teas, cakes, and ice cream. The Osulloc premium green tea is one of the cafe's signature brews. Recommended treats include the Green Tea Ice Flake (green tea flavoured shaved ice), and the classic Green Tea Ice Cream. Popular choices among foreign visitors include the Green Tea O Fredo (green tea shake with green tea ice cream) and the Jeju Tangerine Milk Tea. 
+</p>
+</div>
+
+
+<div id="rightcolC">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP2">
+  <h2>Directions/Hours of Operation</h2>
+  <p>Osulloc Green Tea Dessert Cafe in Jeju is operated with the Osulloc Green Tea museum. The specialty of this cafe is that they only use green tea leaves that they cultivated from the green tea field to make desserts that is right in front of the cafe. The cafe is located at 1235-3 Seongwang-ri, Andeok-myeon, Seogwipo, Jeju-do, South Korea.
+Osulloc Green Tea Dessert Cafe is open everyday from 9 am to 6 pm. Due to the unpredictable weather in Jeju, hours may vary.
+</p>
+</div>
+
+
+<div id="rightcolC2">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP3">
+  <h2> Menu </h2>
+  <p>Iced Green Tea Latte - $6.50 <br>
+Iced Green Tea Caramel Latte - $7.00 <br>
+Freddo Green Tea - $7.00<br>
+Freddo Black Tea - $7.00<br>
+Powdered Green Tea Float - $7.50<br>
+Powdered Black Tea Float - $7.50<br>
+Apple Honey Milk Tea - $7.00<br>
+Fresh Citrus Green Tea - $6.50<br>
+Jeju Tangerine Tea-ade - $6.50<br>
+Quince Ginger Tea-ade - $6.50<br>
+Green Tea / Black Tea / Green Yogurt Ice-cream - $6.50<br>
+Green Tea / Black Tea Ice Flakes - $11.00<br>
+Green Tea Cheese Tiramisu - $5.00<br>
+Green Tea Roll Cake - $4.50 (piece)<br>
+Injeolmi Sandwich - $7.00<br>
+Green Tea Waffle - $7.00<br>
+Red Bean Brownie - $6.00<br>
+Crunchy Rice Chocolate Cake - $6.00<br>
+
+</p>
+</div>
+
+
+<div id="rightcolC3">
+  <br><br><br>
+</div>
+
+
+</div>
+<div id="footer2">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

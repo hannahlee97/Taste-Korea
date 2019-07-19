@@ -1,0 +1,69 @@
+<div id="maincontent">
+<div id = "leftcol">
+<img src="images/busan10.jpg" alt="opbreadstore">
+
+      <p><br><br><br></p>
+
+
+
+  <img src="images/busan7.jpg" alt="location">
+
+
+      <p><br><br><br></p>
+
+
+      <img src="images/busan6.jpg" alt="menu">
+
+
+       <p><br><br><br>r</p>
+
+</div>
+<div id="rightcolP">
+  <h2> Featured Items </h2>
+  <p>	Top menu items for OPS Bakery include their giant choux cream pastries and hagwonjeon, a crispy bread resembling a combination between a muffin and a castella. Other tasty choices include a variety of decorative cakes, chocolates, and pastries, in addition to Western and Japanese-style cookies. 
+</p>
+
+</div>
+
+
+<div id="rightcolC">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP2">
+  <h2> Directions/Hours of Operation</h2>
+  <p>OPS Bakery is located in various areas in Busan. However, the most famous place is the one that is located beside the beautiful Haeundae beach. The address is 31 Jungdong 1-ro, Jung 1-dong Haeundae, Busan, South Korea. Since it is located beside the beach, OPS is one of the preferred places to grab a little snack after swimming. 
+OPS Haeundae is open everyday from 8 am to 11 pm. Please note that each hour, fresh baked breads come out so it would be better to aim for the fresh breads although everything at OPS is scrumptious.
+</p>
+</div>
+
+
+<div id="rightcolC2">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP3">
+  <h2> Menu </h2>
+  <p>Ops' Best Breads<br>
+Cream Cheese Danish - $2.30 <br>
+Cheese Manju - $1.50(1ea)<br>
+Apple Pie - $15.00<br>
+Tuna Stuffed Bread - $2.30<br>
+Mentaiko Baguette - $2.80<br>
+Quiche - $5.00<br>
+</p>
+</div>
+
+
+<div id="rightcolC3">
+  <br><br><br>
+</div>
+
+
+</div>
+<div id="footer2">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

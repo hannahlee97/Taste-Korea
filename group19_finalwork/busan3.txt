@@ -1,0 +1,68 @@
+<div id="maincontent">
+<div id = "leftcol">
+<img src="images/busan3.jpg" alt="pajun">
+	
+      <p><br><br><br></p>
+
+
+
+  <img src="images/busan4.jpg" alt="location">
+
+
+      <p><br><br><br></p>
+
+
+      <img src="images/busan20.jpg" alt="menu">
+
+
+       <p><br><br><br></p>
+
+</div>
+<div id="rightcolP">
+  <h2>Main Dish</h2>
+  <p>The traditional Dongnae pajeon, made with onions, beef, and a variety of seafood, is the most famous and recommended item on the menu. Other suggested items include the Beoseot pajeon (green onion pancake with mushroom), Dongnae godung jjim (braised conch), and Golbaengi muchim (spicy sea snail salad).
+</p>
+</div>
+
+
+<div id="rightcolC">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP2">
+  <h2> Directions/Hours of Operation</h2>
+  <p>The reason why the restaurant's name starts with Dongnae is because it is simply located in  Dongnae village in Busan. The address is 43-10 Myeongyun-ro, 94beon-gil, Bokcheon-dong, Dongnae-gu, Busan, South Korea. Dongnae Pajeon is closed every Monday. For other days, it is open from 12 pm to 10 pm. Make sure to arrive at the restaurant early since the waiting list is usually full, especially on weekends.
+</p>
+</div>
+
+
+<div id="rightcolC2">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP3">
+  <h2> Menu </h2>
+  <p>Original Dongnae Pajeon - small ($20) medium ($30) large ($40)<br>
+Mushroom Dongnae Pajeon  - small ($18) medium ($25) large ($35)<br>
+Fried Sweet and Sour Pork - $20<br>
+Grilled Deodeok - $20<br>
+Seasoned jellied acorn - $15<br>
+Rice cake - $5<br>
+Special Combo #1 - $35<br>
+Special Combo #2 - $30<br>
+</p>
+</div>
+
+
+<div id="rightcolC3">
+  <br><br><br>
+</div>
+
+
+</div>
+<div id="footer2">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

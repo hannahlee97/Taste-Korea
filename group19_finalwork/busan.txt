@@ -1,0 +1,49 @@
+<div id="maincontent">
+<div id="leftcolumn2">
+
+<a href="index.php?id=busan3"><img src="images/busan1.jpg" alt="image"></a>
+	<h3>Dongnae Halmae Pajeon</h3>
+	<p> Dongnae Halmae Pajeon is a family-owned Busan restaurant that has specialized in serving Korean pancakes (dongnae pajeon) for over 50 years. Their traditional pancakes are typically made with scallions, eggs, glutinous and non-glutinous rice powder, and variety of different seafood, such as oyster and squid. Dongnae pajeon is often served with makgeolli, a milky, alcoholic rice beverage that is well complemented with the flavours of their pancakes.
+ </p>
+
+	</div>
+
+	<div id="rightcolumn2">
+
+	<a href="index.php?id=busan4"><img src="images/busan2.jpg" alt="image"></a>
+	<h3>OPS Bakery </h3>
+	<p>OPS Bakery in Haeundae is the second location of the OPS Bakery Branch that has been in operation since 1996. The bakery serves a wide range of handmade, freshly-baked goods such as cakes and bread that go well with the coffees, teas, and juices that are also part of the menu. </p>
+
+	</div>
+
+</div>
+<div id="map" style="width: 500px; height: 300px;"></div>
+<script type="text/javascript">
+  var locations = [
+    ['Dongnae_Halmae_Pajeon', 35.204584, 129.083824],
+    ['OPS_bakery', 35.162881, 129.162819]
+  ];
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 12,
+    center: new google.maps.LatLng(35.175755, 129.123282),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+  var infowindow = new google.maps.InfoWindow();
+  var marker, i;
+  for (i = 0; i < locations.length; i++) {
+    marker = new google.maps.Marker({
+      position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+      map: map
+    });
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+      return function() {
+        infowindow.setContent(locations[i][0]);
+        infowindow.open(map, marker);
+      }
+    })(marker, i));
+  }
+</script>
+<div id="footer">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>

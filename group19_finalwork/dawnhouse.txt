@@ -1,0 +1,76 @@
+<div id="maincontent">
+<div id = "leftcol">
+<img src="images/DawnHouse2.jpg" alt="KoreanBBQ">
+
+      <p><br><br><br></p>
+
+
+
+  <img src="images/DawnHouse.jpg" alt="DawnHouse">
+
+
+      <p><br><br><br></p>
+
+
+      <img src="images/DawnHouseMenu.jpg" alt="Menu">
+
+
+       <p><br><br><br>r</p>
+
+</div>
+<div id="rightcolP">
+  <h2> Main Dish: Korean Barbeque </h2>
+  <p>	The Dawn House menu has a large selection of dishes, including a variety of stews and rice dishes.
+  Although dishes are a little more on the expensive side, the meat quality is excellent. Their recommended dishes include the
+  doenjang stew and bibimbap. The special luxury set A is the most popular item on the menu.
+</p>
+
+</div>
+
+
+<div id="rightcolC">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP2">
+  <h2> Directions/Hours of operation</h2>
+  <p>The Dawn House is located at the northern side of Gangnam Young-dong bridge, Cheongdam-dong 129-10, and is open 24-hours, all year around.
+
+</p>
+</div>
+
+
+<div id="rightcolC2">
+  <br><br><br>
+</div>
+
+
+<div id="rightcolP3">
+  <h2> Menu </h2>
+  <p>Rib Eye - $58 (150g)<br>
+Marinated Grilled Beef - $58 (250g)<br>
+Bulgogi - $32 (200g)<br>
+Shabu-Shabu $32 (150g)<br>
+Raw beef - $32 (200g)<br>
+Soy sauce marinated crab - $60<br>
+Short Rib soup - $14<br>
+Raw beef bibimbap - $10<br>
+Bean Sprout soup - $7<br>
+Kimchi soup - $7<br>
+Dumpling soup - $7<br>
+Bean Paste stew - $7<br>
+Korean cold noodle - $7
+</div>
+
+
+<div id="rightcolC3">
+  <br><br><br>
+</div>
+
+
+</div>
+<div id="footer2">
+	 <p>Copyright &copy; 2017 </p>
+	</div>
+  </div>
